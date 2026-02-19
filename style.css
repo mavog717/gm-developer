@@ -120,11 +120,6 @@ body .container .herosection .lefthero p {
   margin-bottom: 0.9rem;
   color: rgba(0, 0, 0, 0.575);
 }
-@media (max-width: 768px) {
-  body .container .herosection .lefthero p {
-    font-size: 9px;
-  }
-}
 body .container .herosection .lefthero .btnz {
   display: flex;
   gap: 1rem;
