@@ -76,14 +76,20 @@ body .container .navbar .cta .bx-menu {
 body .container .herosection {
   width: 100%;
   display: flex;
-  overflow: hidden;
   background-color: #f8f9fc;
   padding-bottom: 4.5rem;
+}
+@media (max-width: 768px) {
+  body .container .herosection {
+    flex-direction: column;
+  }
 }
 body .container .herosection .lefthero {
   width: 50%;
   margin-left: 3rem;
   padding-top: 13rem;
+  display: flex;
+  flex-direction: column;
 }
 @media (max-width: 768px) {
   body .container .herosection .lefthero {
