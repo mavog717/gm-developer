@@ -81,6 +81,7 @@ body .container .herosection {
 }
 @media (max-width: 768px) {
   body .container .herosection {
+    display: flex;
     flex-direction: column;
   }
 }

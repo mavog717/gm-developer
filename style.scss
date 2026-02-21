@@ -52,6 +52,7 @@ body {
       background-color: #f8f9fc;
       padding-bottom: 4.5rem;
       @media (max-width: 768px) {
+        display: flex;
         flex-direction: column;
       }
       .lefthero {
