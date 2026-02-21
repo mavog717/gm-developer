@@ -143,14 +143,14 @@ body .container .herosection .lefthero .btnz .hme {
   padding: 0.8rem 1.7rem;
   border-radius: 25px;
 }
+@media (max-width: 768px) {
+  body .container .herosection .righthero {
+    width: 100%;
+  }
+}
 body .container .herosection .righthero img {
   margin-left: 7rem;
   border-radius: 26px;
-}
-@media (max-width: 768px) {
-  body .container .herosection .righthero img {
-    width: 100%;
-  }
 }
 body .container .aboutme-section {
   width: 100%;

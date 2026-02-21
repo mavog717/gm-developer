@@ -111,12 +111,12 @@ body {
       }
 
       .righthero {
+        @media (max-width: 768px) {
+          width: 100%;
+        }
         img {
           margin-left: 7rem;
           border-radius: 26px;
-          @media (max-width: 768px) {
-            width: 100%;
-          }
         }
       }
     }
