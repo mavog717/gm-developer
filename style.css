@@ -155,5 +155,7 @@ body .container .herosection .righthero img {
 body .container .aboutme-section {
   width: 100%;
   height: 70vh;
-  background-color: #070707;
+}
+body .container .aboutme-section .leftabout {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
